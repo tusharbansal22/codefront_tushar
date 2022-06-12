@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How To Website</title>
+  <link rel="icon" type="image/x-icon" href="logo.ico">
+  <style>
+    .logo{
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 20px;
+      text-align: left;
+      padding: 10px 12px;
+      padding-right: 1000px;
+      border:none;
+      background-color:rgba(27, 27, 27, 0.534); 
+      text-decoration: none;
+      color:hotpink; 
+      font-style: italic; 
+      margin-right: 30px;
+      border-radius: 3px; }
+      .taskbar{
+        background-color:rgba(0, 0, 0, 0.8) ;
+        border: none;
+        padding: 10px 14px;
+        color:white;
+        width:100%;
+        margin:0px 0px;
+        font-size:18px;
+        position: fixed;
+      }
+      .btntask{
+        background-color:rgba(0, 0, 0, 0.75) ;
+        color:white;
+        text-align: center;
+        padding:10px 14px;
+        border:none;
+        font-size: 20px;
+        transition: color .15s;
+        text-decoration: none;
+      }
+      .btntask:hover{
+          background-color: black;
+          color:rgba(230, 128, 226, 0.94) ;
+      }
+      .qhead{
+        color:rgba(153, 128, 230, 0.94);
+        padding-bottom: 4px;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        font-family: Verdana;
+        margin-bottom: 30px;
+      }
+      .whyhtml{
+        padding: 14px 100px;
+        font-family: Verdana;
+        line-height: 1.5;
+        width:vw;
+        font-size: 16px;
+        letter-spacing: 2px;
+        word-spacing: 4px;
+
+      }
+      .gallery{
+        vertical-align: middle;
+        text-align: center;
+      }
+      .html{
+        padding:14px 100px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        letter-spacing: 2px;
+        word-spacing: 4px;
+        line-height: 1.5;
+        text-align: center;
+        margin-bottom: 150px;
+
+
+      }
+      xmp{
+        color:rgb(34,248,248);
+        text-align: justify;
+      }
+      .xmp{
+        margin-left: 60%;
+        transform: translate(-50%,0);
+        animation: type 4s steps(60, end); 
+        white-space: nowrap;
+        overflow: hidden;
+        width: 30em;
+        margin: 10px 0 0 690px;
+      }
+      @keyframes type{ 
+          from { 
+               width: 0; 
+               } 
+           }
+      .logosmall{
+        padding-left: 1200px;
+        position: sticky;
+      }
+
+  
+  </style>
+</head>
+<body style='background-color:black; color:rgb(233,206,234); background-image: url(im3.jpeg);'>
+  <div class='taskbar' >
+  <a class='logo' href="#home">htWEB</a>
+  <a class='btntask' href="#about"><img src="about.png" width=35px height=30px></a>
+  <a class='btntask'href="#html"><img src="html3.png" width=55px height=30px></a>
+  <a class='btntask' href="#css"><img src="css3.png" width=32px height=30px></a>
+</div>
+<div class="gallery" id='home'>
+  <a target="_blank" href="im2.jpeg">
+    <img src="im2.jpeg"  width="1600" height="700">
+  </a>
+</div>
+<div class='whyhtml'>
+<p class='qhead'> WHY LEARN HTML?
+</p>
+<p>Knowing how to code in any language is an invaluable skill. Despite how complex websites and apps may be, they are still built with the fundamental blocks of the web: HTML & CSS. These languages are renowned for being beginner-friendly and have a great community that surrounds them. Learning how to code allows you to bring out your personality on your own website, enables you to stand out from the crowd, contribute to projects better, helps you understand and explore other languages and provides you with an opportunity to transition into a different career. </p>
+</div>
+<div id='html' class='html' stle="text-align:center">
+  <p class='qhead'>HTML </p>
+  <p>HTML is the standard markup language for Web pages.<br>
+
+    With HTML you can create your own Website.<br>
+    
+    HTML is easy to learn - You will enjoy it! </p>
+    <br>
+    <p> HTML code starts with html starting and closing  tag</p>
+    <div class="xmp">
+    <xmp ><html> "your code" </html>
+    </xmp></div>
+    <p>html tag is followed by head tag in which we can specify title </p>
+    <div class="xmp"><xmp>
+    <html>
+      <head>
+        <title>
+          "Your title"
+        </title>
+      </head>
+    </html>
+  </xmp></div>
+  <p>After that we specify body of the website</p>
+  <div class="xmp">
+    <xmp>
+  <html>
+    <head>
+      <title>
+        'hello world'
+      </title>
+    </head>
+  <body>
+    <p>hello</p>
+  </body>
+  </html>
+    </xmp>
+  </div>
+  <p>And that's it! <br> This is basic syntax of html.</p>
+</div>
+<div id='css' class='html' style='text-align: center;'>
+  <p class='qhead'>CSS</p>
+  <p>CSS is basically used for styling html. All the basic structure of websites lies in Html itself but css makes it presentable.</p>
+  <p>For using css we make individual groups of elements called classes. We can call any class in CSS using a "." . Apart from that we can also change styling for a particular type of element at once. <br> Firstly, lets understand some attributes of CSS</p>
+  <p style='font-weight: bold;'>FONT FAMILY</p>
+  <p>It changes the font of the text</p>
+  <div class='xmp'>
+    <xmp>
+      font-family: arial;
+    </xmp>
+  </div>
+  <p style='font-weight: bold;'>WEIGHT</p>
+  <p>It changes boldness of text</p>
+  <div class='xmp'>
+    <xmp>
+      font-weight:bold;
+    </xmp>
+  </div>
+  <p style='font-weight: bold;'>COLOR</p>
+  <p>It changes the colour of the text</p>
+  <div class='xmp'>
+    <xmp>
+      color:white;
+    </xmp>
+  </div>
+  <p style='font-weight: bold;'>PADDING</p>
+  <p>It changes the internal spacing in a box element</p>
+  <div class='xmp'>
+    <xmp>
+      padding:10px 15px;
+    </xmp>
+  </div>
+  <p style='font-weight: bold;'>MARGIN</p>
+  <p>It changes external spacing in a box element</p>
+  <div class='xmp'>
+    <xmp>
+      margin:15px 20px;
+    </xmp>
+  </div>
+</div>
+<div id='about' >
+<p class='qhead'>Developers</p>
+<p class='html'>Tushar Bansal<br> IIT Bhilai <br> 2021</p></div>
+<div class="logosmall">
+  <a href="#html">
+    <img src="html3.png" width=55px height=30px>
+  </a>
+  <a href="#css">
+    <img src="css3.png" width=30px height=30px>
+  </a>
+</div>
+
+
+
+
+
+
+</body>
+</html>
